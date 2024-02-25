@@ -1,36 +1,35 @@
-export const fakeDB = [{label:'one',}]
-var x = 0;
-//   {
-//     label: 'One',
-//   },
-//   {
-//     label: 'Two',
-//   },
-//   {
-//     label: 'Three',
-//   },
-//   {
-//     label: 'Four',
-//   },
-//   {
-//     label: 'Five',
-//   },
-//   {
-//     label: 'Six ',
-//   },
-//   {
-//     label: 'Seven',
-//   },
-//   {
-//     label: 'Eight',
-//   },
-//   {
-//     label: 'Nine',
-//   },
-//   {
-//     label: 'Ten',
-//   },
-// ];
+export const fakeDB = [
+  {
+    label: 'One',
+  },
+  {
+    label: 'Two',
+  },
+  {
+    label: 'Three',
+  },
+  {
+    label: 'Four',
+  },
+  {
+    label: 'Five',
+  },
+  {
+    label: 'Six ',
+  },
+  {
+    label: 'Seven',
+  },
+  {
+    label: 'Eight',
+  },
+  {
+    label: 'Nine',
+  },
+  {
+    label: 'Ten',
+  },
+];
 
  var userArray = []; // Array to store user input
 
