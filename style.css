@@ -49,3 +49,9 @@ select {
 label {
   margin-right: 5px;
 }
+#listInput {
+  margin: auto;
+  padding: 10px;
+  width: 95%;
+  height: 200px;
+}
