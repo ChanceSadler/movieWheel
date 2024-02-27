@@ -1,37 +1,5 @@
 const processList = document.querySelector('.processList');
 import { props} from '/wheel.js';
-export var fakeDB = [
-  {
-    label: 'One',
-  },
-  {
-    label: 'Two',
-  },
-  {
-    label: 'Three',
-  },
-  {
-    label: 'Four',
-  },
-  {
-    label: 'Five',
-  },
-  {
-    label: 'Six ',
-  },
-  {
-    label: 'Seven',
-  },
-  {
-    label: 'Eight',
-  },
-  {
-    label: 'Nine',
-  },
-  {
-    label: 'Ten',
-  },
-];
 
 var userArray = []; // Array to store user input
  window.addEventListener('click', (e) => {
@@ -52,8 +20,36 @@ var userArray = []; // Array to store user input
   }
 });
 
-export var labeling = [{label:'boop'}];
-var items = [{items: labeling}];
+export var labeling = [ {
+  label: 'One',
+},
+{
+  label: 'Two',
+},
+{
+  label: 'Three',
+},
+{
+  label: 'Four',
+},
+{
+  label: 'Five',
+},
+{
+  label: 'Six ',
+},
+{
+  label: 'Seven',
+},
+{
+  label: 'Eight',
+},
+{
+  label: 'Nine',
+},
+{
+  label: 'Ten',
+},];
 function convertToLabel()
 {
 
@@ -63,7 +59,5 @@ function convertToLabel()
   labeling[i] = {label: userArray[i]};
   i= i+1;
  }
-props.pop();
-props.push({items: labeling})
  
 };
